@@ -101,63 +101,11 @@ $ python setup.py install
 
 ### Forensics
 
-<table>
-  <tbody>
-    <tr>
-      <th></th>
-      <th align="center">Firefox</th>
-      <th align="center">Chrome/Chromium</th>
-    </tr>
-    <tr>
-      <td>Linux</td>
-      <td align="center">
-      	<ul>
-      		<li>~/.mozilla/firefox/<profileID>/places.sqlite</li>
-      	</ul>
-      </td>
-      <td align="center">
-      	<ul>
-      		<li>~/.config/google-chrome/History</li>
-      		<li>~/.config/google-chrome-beta/History</li>
-      		<li>~/.config/google-chrome-unstable/History</li>
-      		<li>~/.config/chromium/History</li>
-      	</ul>
-
-      </td>
-    </tr>
-    <tr>
-      <td>Mac OS</td>
-      <td align="center">
-      	<ul>
-      		<li>~/Library/Mozilla/Firefox/Profiles/<profileID>/places.sqlite</li>
-      		<li>~/Library/Application Support/Firefox/Profiles/<profileID>/places.sqlite</li>
-      	</ul>
-      </td>
-      <td align="center">
-      	<ul>
-      		<li>~/Library/Application Support/Google/Chrome/History</li>
-      		<li>~/Library/Application Support/Chromium/History</li>
-      		<li>~/Library/Application Support/Google/Chrome Canary/History</li>
-      	</ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Windows</td>
-      <td align="center">
-      	<ul>
-      		<li>%AppData%/Mozilla/Firefox/Profiles/<profileID>/places.sqlite</li>
-      	</ul>
-      </td>
-      <td align="center">
-      	<ul>
-      		<li>%LOCALAPPDATA%\Google\Chrome\User Data\ChromeDefaultData\History</li>
-      		<li>%LOCALAPPDATA%\Chromium\UserData\History</li>
-      		<li>%LOCALAPPDATA%\Google\Chrome SxS\UserData\History</li>
-      	</ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+|  | Firefox | Chrome/Chromium |
+|---------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Linux | ~/.mozilla/firefox/<profile> | ~/.config/google-chrome ~/.config/google-chrome-beta ~/.config/google-chrome-unstable ~/.config/chromium |
+| Mac OS | ~/Library/Mozilla/Firefox/Profiles/<profile> ~/Library/Application Support/Firefox/Profiles/<profile> | ~/Library/Application Support/Google/Chrome ~/Library/Application Support/Chromium ~/Library/Application Support/Google/Chrome Canary |
+| Windows | %AppData%/Mozilla/Firefox/Profiles/<profile> | %LOCALAPPDATA%\Google\Chrome\User Data\ChromeDefaultData %LOCALAPPDATA%\Chromium\UserData %LOCALAPPDATA%\Google\Chrome SxS\UserData |
 
 ### To Do List 
 
