@@ -97,8 +97,6 @@ $ python setup.py install
 * value
 * date_last_used
 
----
-
 ### Forensics
 
 |  | Firefox | Chrome/Chromium |
