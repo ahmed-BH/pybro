@@ -1,0 +1,10 @@
+# Byte-compiled / optimized
+pybro/__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+MANIFEST
+build/
+dist/
+
