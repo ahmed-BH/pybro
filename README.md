@@ -30,7 +30,7 @@ $ python setup.py install
 
 ```python
 >>> import pybro
->>> Browser.get_supported_br()
+>>> pybro.Browser.get_supported_br()
 ```
 - Get a list of currently supported browsers
 
@@ -97,7 +97,7 @@ $ python setup.py install
 * value
 * date_last_used
 
-### Forensics
+## Forensics
 
 |  | Firefox | Chrome/Chromium |
 |---------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
@@ -105,7 +105,7 @@ $ python setup.py install
 | Mac OS | ~/Library/Mozilla/Firefox/Profiles/<profile> ~/Library/Application Support/Firefox/Profiles/<profile> | ~/Library/Application Support/Google/Chrome ~/Library/Application Support/Chromium ~/Library/Application Support/Google/Chrome Canary |
 | Windows | %AppData%/Mozilla/Firefox/Profiles/<profile> | %LOCALAPPDATA%\Google\Chrome\User Data\ChromeDefaultData %LOCALAPPDATA%\Chromium\UserData %LOCALAPPDATA%\Google\Chrome SxS\UserData |
 
-### To Do List 
+## To Do List 
 
 - [ ] Support Opera browser
 - [ ] Support Safari browser
