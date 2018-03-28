@@ -92,7 +92,7 @@ $ python setup.py install
 >>> for i in fill :
 >>>    print(i["value"])
 ```
-- **get_autoFill()** method returns a list of *dicts* sorted by *nb_visits*, its keywords are :
+- **get_autoFill()** method returns a list of *dicts*, its keywords are :
 
 * value
 * date_last_used
